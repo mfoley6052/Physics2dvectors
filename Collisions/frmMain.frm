@@ -46,8 +46,32 @@ Begin VB.Form Form1
       Left            =   120
       Top             =   2520
    End
+   Begin VB.Label Label3 
+      Caption         =   "Velocity 1"
+      Height          =   255
+      Left            =   2400
+      TabIndex        =   6
+      Top             =   2400
+      Width           =   735
+   End
+   Begin VB.Label Label2 
+      Caption         =   "mass 2"
+      Height          =   255
+      Left            =   1560
+      TabIndex        =   5
+      Top             =   2400
+      Width           =   735
+   End
+   Begin VB.Label Label1 
+      Caption         =   "mass 1"
+      Height          =   375
+      Left            =   720
+      TabIndex        =   4
+      Top             =   2400
+      Width           =   615
+   End
    Begin VB.Shape shpBall 
-      BackColor       =   &H80000001&
+      BackColor       =   &H000080FF&
       BackStyle       =   1  'Opaque
       Height          =   375
       Index           =   1
